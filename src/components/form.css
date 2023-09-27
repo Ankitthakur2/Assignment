@@ -1,0 +1,141 @@
+.para {
+  margin-top: 1rem;
+  color: white;
+  width: 400px;
+  margin-left: 2rem;
+}
+
+.para p {
+  color: white;
+
+  font-size: 30px;
+  font-family: "Frank Ruhl Libre", serif;
+  font-family: "Libre Franklin", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Text Me One", sans-serif;
+  margin: 0rem;
+}
+
+.comp {
+  display: flex;
+  justify-content: space-around;
+}
+
+.second-part {
+  background-color: rgb(219, 219, 219);
+  border-radius: 5%;
+  height: 300px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+}
+.desc {
+  margin-left: 2.3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.desc p {
+  margin-top: 0rem;
+}
+
+.desc1 {
+  margin-left: 2.3rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+form {
+  background-color: rgb(219, 219, 219);
+
+  height: 300px;
+  width: 350px;
+  padding: 0rem 3rem;
+}
+
+input,
+textarea {
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: rgb(219, 219, 219);
+  margin-right: 0.5rem;
+  margin-top: 1rem;
+}
+
+textarea {
+  width: 100%;
+}
+
+button[type="submit"] {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 20%;
+  padding: 0.6rem 1rem;
+
+  border: none;
+}
+
+.list {
+  color: white;
+  font-size: 10px;
+  font-family: "Frank Ruhl Libre", serif;
+  font-family: "Libre Franklin", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Text Me One", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+}
+
+.list p {
+  margin: 0rem;
+}
+
+.btn-style1 {
+  border-radius: 50%;
+  background-color: black;
+  margin-left: 0.7rem;
+  border: none;
+  margin-bottom: 0rem;
+}
+
+@media screen and (max-width: 780px) {
+  .comp {
+    flex-direction: column;
+  }
+  .para {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+
+  .para p {
+    font-size: 20px;
+  }
+
+  .second-part {
+    height: 350px;
+    margin-top: 1rem;
+    width: 330px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  form {
+    width: 320px;
+    padding: 0.4rem 0.3rem;
+  }
+  textarea {
+    width: 60%;
+  }
+
+  .desc {
+    font-size: 10px;
+  }
+  .list {
+    width: 350px;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+  }
+}
